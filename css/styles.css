@@ -1,0 +1,161 @@
+
+/* GENERAL */
+body{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+h1, h2{
+color: #00252e;
+font-weight: 800;
+padding: 3%;
+}
+p{
+  color:	#808d99;
+}
+
+ .navbar {
+  padding: 1% 5% 1%;
+}
+.container-fluid {
+  padding: 5% 5%;
+
+}
+
+.column-text{
+  padding: 5% 7% 5% 3%;
+}
+/* BUTTONS */
+.header-button{
+  background-color: #fff;
+  color:#808d99;
+  font-weight: bold;
+  padding: 1% 5% 1%;
+}
+
+.action-button {
+  background-color: #ff52bf;
+
+}
+
+
+.button-text{
+  font-weight: bold;
+  color: #fff;
+
+}
+
+/* SECTION ABOUT */
+.about {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: #ebfbff;
+  background-size: cover;
+}
+
+.mockups {
+  width: 100%;
+}
+
+.header {
+  padding: 0 5% 5%;
+}
+.header-text{
+  padding-top: 20%;
+}
+/* SECTION FEATURES */
+
+.features-images {
+  width: 50%;
+}
+
+.feature{
+  border-radius: 16px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  margin: 3%;
+  padding: 5%;
+}
+.last-feature{
+  margin-bottom: 10%;
+}
+
+/* SECTION CTA */
+
+.contact {
+  background-color: #00252e;
+  color: #fff;
+  padding-top: 5%;
+}
+
+.footer-logo {
+  padding: 2%;
+}
+
+/* .cta {
+  position: absolute;
+  z-index: 1;
+  left: 25%;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem 3rem;
+  width: 50%;
+ border-top: 100px;
+} */
+
+.cta{
+    position: absolute;
+  z-index: 1;
+  left: 25%;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  text-align: center;
+  width: 50%;
+  padding: 3%;
+}
+.contact p{
+  color: #fff;
+}
+
+.info {
+  padding-top: 5%;
+}
+.address{
+  padding-top: 3%;
+}
+.copyright{
+    padding-top: 25%;
+}
+
+/* Social Icons */
+.fab{
+  padding: 3%;
+
+}
+
+/* MEDIA */
+
+@media (max-width:1300px ){
+  .contact{
+    padding-top: 15%;
+  }
+}
+@media (max-width: 1000px ) {
+  .features-images {
+    width: 100%;
+  }
+  body{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cta{
+    width: 90%;
+    left: 7%;
+
+  }
+  .contact{
+    padding-top: 30%;
+  }
+}
